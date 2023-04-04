@@ -1,0 +1,72 @@
+console.log(1)
+const tendon = ["Cày 1-100 lv","Cày 1-500 lv","Cày 500-1000 lv","Cày 1000-1500 lv","Cày 1500-2000lv","Cày 1-Max lv","cày 3m beli","cày 30m beli","cày 50m beli","Cày Max Beli (yêu cầu lv 2250)","kiếm shanks saber","authentic triple katana(yêu cầu lv 2250)","authentic mace( yêu cầu lv 2250)","mom blade","phoenix blade ( kiếm của ms.mother, Yêu cầu lv 2250)","kioro sword ( koko,yêu cầu lv 2250)","metal trident ( kiếm của katakuri, yêu cầu lv 2250)","hell sword ( yêu cầu lv 2250)","dragon necklace ( item hiếm legendary)","500Gem","1000Gem","acroscythe có x2 drop","cày 2000-2500lv","cày 2500-3000lv","cày 3000-Max","Cày 1-1000lv","Kiếm Longaevus","Oni Mask","Kiếm Muramasa","Awaken Muramasa(1 Skill)","Night Necklace","Awaken Muramasa(Full Skill)","acroscthe không có x2 drop","Aquatic Anchor"] 
+
+
+
+
+
+function GetJob() {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://marketroblox.com/admin/caythue/1?type=C%C3%80Y%20THU%C3%8A',
+                data: 'draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=4&columns%5B4%5D%5Bname%5D=&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=5&columns%5B5%5D%5Bname%5D=&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=6&columns%5B6%5D%5Bname%5D=&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=7&columns%5B7%5D%5Bname%5D=&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=8&columns%5B8%5D%5Bname%5D=&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=true&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B9%5D%5Bdata%5D=9&columns%5B9%5D%5Bname%5D=&columns%5B9%5D%5Bsearchable%5D=true&columns%5B9%5D%5Borderable%5D=true&columns%5B9%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B9%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B10%5D%5Bdata%5D=10&columns%5B10%5D%5Bname%5D=&columns%5B10%5D%5Bsearchable%5D=true&columns%5B10%5D%5Borderable%5D=true&columns%5B10%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B10%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B11%5D%5Bdata%5D=11&columns%5B11%5D%5Bname%5D=&columns%5B11%5D%5Bsearchable%5D=true&columns%5B11%5D%5Borderable%5D=true&columns%5B11%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B11%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=desc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&dt_name=dt_authors',
+
+                success: function(result) {
+                    var listdon = JSON.parse(result)
+                    console.log(listdon)
+
+
+
+                    for (var i = 0; i < listdon['data'].length; i++) {
+                        if ( tendon.filter(don => don == listdon['data'][i][4])[0] == undefined) {
+
+
+
+                            var don = listdon['data'][i][4]
+                            var iddon = listdon['data'][i][0]
+
+                            $.ajax({
+                                type: "POST",
+                                url: "../admin/nhandonhang",
+                                data: {
+                                    id: iddon.replace("#", "")
+                                },
+                                success: function(result) {
+                                    var json = $.parseJSON(result)
+
+                                    if (json.err == 0) {
+
+                                        $.ajax({
+                                            type: 'POST',
+                                            url: 'https://discord.com/api/webhooks/990202364612968488/6q-rfbn61tPNZOM7cF9uKThEzyn0q3r7om4IgA0gT2ddAccnyrob09UgjzjErMkIkRLf',
+                                            data: {
+
+                                                content: "@everyone\n```Đã Nhận Đơn " +iddon+' '+ don + '```'
+                                            }
+                                        })
+
+
+                                    }
+
+                                }
+                            });
+
+                        }
+                    }
+                }
+            })
+
+
+
+            res()
+        }, 600
+                )
+    })
+}
+(async () => {
+    while (true) await GetJob()
+})()
+
